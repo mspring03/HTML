@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #fond {
+            display: flex;
+        }
+        #outside {
+            padding-bottom: 112px;
+            padding-top: 72px;
+            background: #f0f2f5;
+            display: block;
+            
+        }
+        #inside {
+            padding: 20px 0px;
+            margin: 0px 230px;
+        }
+        #loginBox {
+            display: flex;
+            width: 396px;
+            height: 311px;
+            display: block;
+            justify-content: center;
+            margin: 40px 0px 0px;
+            padding: 10px 0px 24px;
+            background-color: #FFFFFF;
+            border-radius: 6px;
+        }
+        #bottomBox {
+
+        }
+        #input {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #login {
+            display: flex; 
+            flex-direction: column;
+            align-items: center; 
+            padding: 6px 0px 0px;
+        }
+        #findpw {
+            display: flex; 
+            flex-direction: column;
+            align-items: center; 
+            margin: 16px 0px 0px;
+        }
+        #findpwlink {
+            font-family: inherit;
+            color: #1877F2;
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+        }
+        #newid {
+            display: flex;
+            background-color: #42B72A;
+            color: #FFFFFF;
+            height: 48px;
+            padding: 0px 16px;
+            border: none;
+            border-radius: 6px;
+            font-size: 17px;
+            line-height: 48px;
+            text-decoration: none;
+            font-family: inherit;
+            flex-direction: column;
+            font-weight: 500;
+            justify-content: center;
+
+        }
+        .input_1 {
+            padding: 6px 0px;
+        }
+        div {
+            display: block;
+        }
+        button {
+            font-family: inherit;
+            font-weight: 600;
+            background-color: #1877F2;
+            border-color: #1877F2;
+            border-radius: 6px;
+            outline: none;
+            width: 364px;
+            height: 48px;
+            color: white;
+            padding: 0px 16px;
+            font-size: 20px;
+            line-height: 48px;
+            border: none;
+        }
+        button:hover {
+            background-color: #1070ee;
+        }
+        h2 {
+            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+            font-size: 28px;
+            font-weight: normal;
+            line-height: 32px;
+            width: 500px;
+            padding: 0 0 20px;
+        }
+        img {
+            height: 106px;
+            margin: -28px;
+        }
+        input {
+            padding: 14px 16px;
+            width: 364px;
+            height: 52px;
+            box-sizing: border-box;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+            font-size: 17px;
+            padding: 14px 16px;
+            outline: none;
+        }
+        input:focus {
+            border: 1px solid #1877f2;
+        }
+        input:focus::placeholder {
+            color:#dddfe2e5;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="fond">
+    <div id="outside">
+        <div style="display: inline-block; width: 980px;" id="inside">
+            <div style="display: inline-block;padding: 0px 32px 0px 0px">
+                <div>
+                    <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
+                    <h2>Facebook에서 전세계에 있는 친구, 가족, 지인들과 함께 이야기를 나눠보세요.</h2>
+                </div>   
+            </div>  
+            <div style="display: inline-block;"></div> 
+            <div style="display: inline-block;">
+                <div id="loginBox">
+                    <div id="input">
+                        <div class="input_1">
+                            <input role="textbox" type="text" name="이메일 또는 전화번호" placeholder="이메일 또는 전화번호" id="">
+                        </div>   
+                        <div class="input_1">
+                            <input role="textbox" type="text" name="비밀번호" placeholder="비밀번호">
+                        </div>       
+                    </div>
+                    <div id="login"> 
+                        <button>로그인</button>
+                    </div>
+                    <div id="findpw">
+                        <a id="findpwlink" href="">비밀번호를 잊으셨나요?</a>
+                    </div>
+                    <div style="margin: 20px 16px; border-bottom: 1px solid #dadde1;">
+                    </div>
+                    <div style="padding: 6px 0px 0px; display: flex; flex-direction: column; align-items: center;" >
+                        <a id="newid" role="button" href="">새 계정 만들기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
